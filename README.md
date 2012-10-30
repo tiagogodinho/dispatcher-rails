@@ -12,13 +12,13 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install dispatcher-rails
-
 ## Usage
 
-TODO: Write usage instructions here
+The dispatcher file will be added to the asset pipeline and available for you to use. Add these lines after `//= require jquery` in `app/assets/javascripts/application.js`:
+
+```
+//= require dispatcher
+```
 
 ## Contributing
 
@@ -27,3 +27,7 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+
+MIT License. Copyright 2012 Tiago Rafael Godinho
