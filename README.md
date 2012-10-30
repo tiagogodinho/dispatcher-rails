@@ -1,6 +1,6 @@
-# Dispatcher::Rails
+# dispatcher-rails
 
-TODO: Write a gem description
+An easy way to use [fnando/dispatcher-js](https://github.com/fnando/dispatcher-js) with assets-pipeline.
 
 ## Installation
 
@@ -18,6 +18,18 @@ The dispatcher file will be added to the asset pipeline and available for you to
 
 ```
 //= require dispatcher
+```
+
+Use the helper:
+
+``` erb
+<%= dispatcher_tag %>
+```
+
+to generate a metatag:
+
+``` html
+<meta content="projects#index" name="page" />
 ```
 
 ## Contributing

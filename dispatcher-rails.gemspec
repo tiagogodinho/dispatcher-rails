@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Dispatcher::Rails::VERSION
   gem.authors       = ['Tiago Rafael Godinho']
   gem.email         = ['tiagogodinho3@gmail.com']
-  gem.description   = %q{Write a gem description}
-  gem.summary       = %q{Write a gem summary}
+  gem.description   = %q{Use fnando/dispatcher-js with assets-pipeline}
+  gem.summary       = %q{An easy way to use fnando/dispatcher-js with assets-pipeline}
   gem.homepage      = ''
 
   gem.add_dependency 'rails', '~> 3.2.0'
