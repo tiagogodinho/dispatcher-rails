@@ -32,9 +32,11 @@ to generate a metatag:
 <meta content="projects#index" name="page">
 ```
 
+and
+
 ``` erb
 <%= body_tag do %>
-  <!-- your code here -->
+    <!-- your code here -->
 <% end %>
 ```
 
@@ -42,7 +44,7 @@ to generate the body tag:
 
 ``` html
 <body class="projects#index">
-  <!-- your code here -->
+    <!-- your code here -->
 </body>
 ```
 
