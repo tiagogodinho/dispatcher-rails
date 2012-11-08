@@ -6,7 +6,9 @@ module Dispatcher
       end
 
       def body_tag(options = {}, &block)
-        options = options.merge(class: controller_action_string)
+        options[:class] = "" unless options[:class]
+        options[:class] << " #{controller_action_string}"
+
         content_tag :body, options do
           yield
         end
