@@ -20,7 +20,7 @@ The dispatcher file will be added to the asset pipeline and available for you to
 //= require dispatcher
 ```
 
-Use the helper:
+Use the helpers:
 
 ``` erb
 <%= dispatcher_tag %>
@@ -29,7 +29,21 @@ Use the helper:
 to generate a metatag:
 
 ``` html
-<meta content="projects#index" name="page" />
+<meta content="projects#index" name="page">
+```
+
+``` erb
+<%= body_tag do %>
+  <!-- your code here -->
+<% end %>
+```
+
+to generate the body tag:
+
+``` html
+<body class="projects#index">
+  <!-- your code here -->
+</body>
 ```
 
 ## Contributing
