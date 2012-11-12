@@ -5,15 +5,6 @@ module Dispatcher
         tag :meta, name: 'page', content: controller_action_string
       end
 
-      def body_tag(options = {}, &block)
-        options[:class] = "" unless options[:class]
-        options[:class] << " #{controller_action_string}"
-
-        content_tag :body, options do
-          yield
-        end
-      end
-
     private
       def controller_action_string
         controller_name = controller.class.name.underscore

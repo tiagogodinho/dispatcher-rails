@@ -32,22 +32,6 @@ to generate a metatag:
 <meta content="projects#index" name="page">
 ```
 
-and
-
-``` erb
-<%= body_tag do %>
-    <!-- your code here -->
-<% end %>
-```
-
-to generate the body tag:
-
-``` html
-<body class="projects#index">
-    <!-- your code here -->
-</body>
-```
-
 ## Contributing
 
 1. Fork it
