@@ -10,12 +10,12 @@ Gem::Specification.new do |gem|
   gem.email         = ['tiagogodinho3@gmail.com']
   gem.description   = %q{Use fnando/dispatcher-js with assets-pipeline}
   gem.summary       = %q{An easy way to use fnando/dispatcher-js with assets-pipeline}
-  gem.homepage      = ''
+  gem.homepage      = 'https://github.com/tiagogodinho'
 
-  gem.add_dependency 'rails', '>= 3.2.0'
+  gem.add_dependency 'rails', '~> 4.0.0'
 
-  gem.add_development_dependency 'rspec-rails', '~> 2.13.2'
-  gem.add_development_dependency 'simplecov',   '~> 0.7.1'
+  gem.add_development_dependency 'rspec-rails', '~> 2.14.0'
+  gem.add_development_dependency 'simplecov',   '~> 0.7.0'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
