@@ -1,4 +1,4 @@
-# dispatcher-rails
+# dispatcher-rails [![Gem Version](https://badge.fury.io/rb/dispatcher-rails.png)](http://badge.fury.io/rb/dispatcher-rails)
 
 An easy way to use [fnando/dispatcher-js](https://github.com/fnando/dispatcher-js) with assets-pipeline.
 
