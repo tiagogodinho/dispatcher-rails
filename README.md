@@ -1,7 +1,6 @@
-# dispatcher-rails [![Build Status](https://travis-ci.org/tiagogodinho/dispatcher-rails.png?branch=master)](https://travis-ci.org/tiagogodinho/dispatcher-rails) [![Dependency Status](https://gemnasium.com/tiagogodinho/dispatcher-rails.png)](https://gemnasium.com/tiagogodinho/dispatcher-rails)
- [![Gem Version](https://badge.fury.io/rb/dispatcher-rails.png)](http://badge.fury.io/rb/dispatcher-rails)
+# dispatcher-rails [![Build Status](https://travis-ci.org/tiagogodinho/dispatcher-rails.png?branch=master)](https://travis-ci.org/tiagogodinho/dispatcher-rails) [![Dependency Status](https://gemnasium.com/tiagogodinho/dispatcher-rails.png)](https://gemnasium.com/tiagogodinho/dispatcher-rails) [![Gem Version](https://badge.fury.io/rb/dispatcher-rails.png)](http://badge.fury.io/rb/dispatcher-rails)
 
-[![Coverage Status](https://coveralls.io/repos/tiagogodinho/dispatcher-rails/badge.png)](https://coveralls.io/r/tiagogodinho/dispatcher-rails)
+[![Code Climate](https://codeclimate.com/github/tiagogodinho/dispatcher-rails.png)](https://codeclimate.com/github/tiagogodinho/dispatcher-rails) [![Coverage Status](https://coveralls.io/repos/tiagogodinho/dispatcher-rails/badge.png)](https://coveralls.io/r/tiagogodinho/dispatcher-rails)
 
 An easy way to use [fnando/dispatcher-js](https://github.com/fnando/dispatcher-js) with assets-pipeline.
 
