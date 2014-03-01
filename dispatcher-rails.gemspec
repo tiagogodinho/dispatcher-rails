@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{An easy way to use fnando/dispatcher-js with assets-pipeline}
   gem.homepage      = 'https://github.com/tiagogodinho'
 
-  gem.add_dependency 'rails', '>= 3.1'
+  gem.add_dependency 'railties', '>= 3.1', '< 5'
 
   gem.add_development_dependency 'coveralls',   '~> 0.7'
   gem.add_development_dependency 'rspec-rails', '~> 2.14.0'
